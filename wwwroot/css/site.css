@@ -8,7 +8,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: rgb(235, 202, 150);
-  
 }
 
 header {
@@ -20,9 +19,6 @@ background-color:#6D6D67 ;
  
 }
 
-header img {
-  height: 40px;
-}
 
 nav ol {
   list-style-type: none;
@@ -125,7 +121,6 @@ main section div img {
 
 
 .video-container h2 {
- 
   text-align: center;
 }
 
@@ -137,19 +132,6 @@ main section div img {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #6D6D67;
-  color: white;
-  width: 100%;
-}
-
-footer marquee {
-  background-color: transparent;
-
 }
 
 .tripadvisor-logo {
@@ -182,60 +164,12 @@ footer marquee {
   display: block;
 }
 
-footer {
-display: flex;
-
-}
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #6D6D67;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
-
-header div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-header img {
-  max-height: 50px;
-}
-
-nav ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav ol li {
-  display: inline;
-}
-
-nav ol a {
-  text-decoration: none;
-  color: white;
-  margin: 0 10px;
-  padding: 10px 15px;
-  transition: background-color 0.3s, color 0.3s;
-  border-radius: 10px;
-}
-
-nav ol a:hover {
-  background-color: #f0f0f0;
-  color: #000;
-}
 
 .content {
   margin-top: 80px; 
