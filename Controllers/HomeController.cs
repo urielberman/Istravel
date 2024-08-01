@@ -17,11 +17,23 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    public IActionResult Privacy()
+    public IActionResult Contacto()
     {
         return View();
     }
+    public IActionResult Cultura()
+    {
+        return View();
+    }
+        public IActionResult Restaurantes()
+    {
+        return View();
+    }
+        public IActionResult Sitios()
+    {
+        return View();
+    }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

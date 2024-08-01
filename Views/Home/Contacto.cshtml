@@ -1,0 +1,44 @@
+<main class="main-contacto">
+    <h1>¿Le ha gustado nuestra propuesta? ¡No dude en contactarnos!</h1>
+    
+        <p>Nos contactaremos con usted para resolverle sus inquietudes.</p>
+    
+    <form action="post">
+        <h2>Ingrese sus datos</h2>
+        <p>Nombre y apellido:</p>
+        <input type="text" placeholder="Uriel Berman">
+        <p>Numero de telefono:</p>
+        <input type="tel" placeholder="11-2637-3443">
+        <p>E-mail para contactarnos:</p>
+        <input type="text" placeholder="IStravel@gmail.com">
+        <p>Seleccione a que barrio de jerusalem quiere ir:</p>
+        <select name="barrios">
+            <option disabled="" selected="">Barrios</option>
+            <option>Barrio musulman</option>
+            <option>Barrio judio</option>
+            <option>Barrio cristiano</option>
+            <option>Barrio armenio</option>
+        </select>
+        <h3>Ingrese entre que fechas quiere ir</h3>
+        <p>Fecha partida:</p><input type="date">
+        <p>Fecha regreso:</p><input type="date">
+        <p>Ingrese de que país es:</p>
+        <input type="text" placeholder="ej: Argentina">
+    </form>
+ 
+        <p>Nosotros entendemos su situación, escriba su duda para que pueda ser atendido lo mas rapido posible!</p>
+
+    <textarea name="Dudas" id="dudas" cols="70" rows="5"></textarea>
+
+ 
+
+    <form>
+        <hr>
+        <h1>📈 Valora nuestro servicio:</h1>
+        <img src="/Images/valoration-image.png">
+        <div></div>
+        <input type="range" max="5" min="1" step="1">
+        <input type="submit" name="BotonSubmit" value="Enviar Formulario">
+        <input type="reset" name="botonReset" value="Reset form">
+    </form>
+</main>
