@@ -1,4 +1,4 @@
-namespace ISTRAVEL.Models{
+namespace Istravel.Models{
     public static class Sitios{
         public static int[] CantSitios = new int[4];
 

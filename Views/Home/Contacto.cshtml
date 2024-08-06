@@ -40,7 +40,7 @@
         <input type="range" max="5" min="1" step="1">
     </form>
 
-<form>
+<form action = '@Url.Action("GuardarCantSitios", "Home")'>
         <p>Elige alguno de los siguientes sitios:</p>
         <section>
         <div>
@@ -63,7 +63,7 @@
             <img src="/Images/mezquita.png" class= "destino" alt="Mezquita Dorada">
         </div>
 
-        <input type="number" placeholder="Número de sitio elegido">
+        <input required type="number" placeholder="Número de sitio elegido" id="decision" class="sitio-decidido" name="decision" min="1" max="4" value="Elegí tu sitio favorito">
         </section>
         <input type="submit" name="BotonSubmit" value="Enviar Formulario">
         <input type="reset" name="botonReset" value="Reset form">

@@ -15,6 +15,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        int[] varAux = new int[4];
+        ViewBag.ListaSitios=varAux;
         return View("Index");
     }
     public IActionResult Contacto()
@@ -32,6 +34,14 @@ public class HomeController : Controller
         public IActionResult Sitios()
     {
         return View();
+    }
+
+
+    public IActionResult GuardarCantSitios(int decision){
+        int[] cantSitios = new int[4];
+        cantSitios = Models.Sitios.calcularCantSitios(decision);
+        ViewBag.ListaSitios = cantSitios;
+        return View("Index");
     }
 
 
