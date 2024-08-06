@@ -70,22 +70,51 @@
         <div>
             <p>Muro de los lamentos</p>
             <img src="/Images/muro.jpg" alt="Muro de los Lamentos">
-            <p>Likes: @ViewBag.ListaSitios[0]</p>
+            @{
+                if(@ViewBag.ListaSitios[0]==1){
+                    <p>Tiene @ViewBag.ListaSitios[0] like </p>
+                }else if (@ViewBag.ListaSitios[0]==0) {
+                    <p>No tiene likes </p>
+                } else {
+                 <p>Tiene @ViewBag.ListaSitios[0] likes </p>
+                }
+            }
         </div>
         <div>
             <p>Torre de David</p>
             <img src="/Images/torre david.jpeg" alt="Torre de David">
-            <p>Likes: @ViewBag.ListaSitios[1]</p>
-        </div>
+            @{
+                if(@ViewBag.ListaSitios[1]==1){
+                    <p>Tiene @ViewBag.ListaSitios[1] like </p>
+                }else if (@ViewBag.ListaSitios[1]==0) {
+                    <p>No tiene likes </p>
+                } else {
+                 <p>Tiene @ViewBag.ListaSitios[1] likes </p>
+                }
+            }       </div>
         <div>
             <p>Monte de los Olivos</p>
             <img src="/Images/monte olivos.jpeg" alt="Monte de los Olivos">
-            <p>Likes: @ViewBag.ListaSitios[2]</p>
-        </div>
+            @{
+                if(@ViewBag.ListaSitios[2]==1){
+                    <p>Tiene @ViewBag.ListaSitios[2] like </p>
+                }else if (@ViewBag.ListaSitios[2]==0) {
+                    <p>No tiene likes </p>
+                } else {
+                 <p>Tiene @ViewBag.ListaSitios[2] likes </p>
+                }
+            }      </div>
         <div>
             <p>Mezquita Dorada</p>
             <img src="/Images/mezquita.png" alt="Mezquita Dorada">
-            <p>Likes: @ViewBag.ListaSitios[3]</p>
-        </div>
+            @{
+                if(@ViewBag.ListaSitios[3]==1){
+                    <p>Tiene @ViewBag.ListaSitios[3] like </p>
+                }else if (@ViewBag.ListaSitios[3]==0) {
+                    <p>No tiene likes </p>
+                } else {
+                 <p>Tiene @ViewBag.ListaSitios[3] likes </p>
+                }
+            }</div>
     </section>
     </main>
