@@ -16,8 +16,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         int[] varAux = new int[4];
-        varAux = Models.Sitios.calcularCantSitios(4);
-        varAux[3]--;
+        varAux = Models.Sitios.GenerarSitios();
         ViewBag.ListaSitios=varAux;
         return View("Index");
     }

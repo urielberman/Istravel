@@ -6,5 +6,9 @@ namespace Istravel.Models{
             CantSitios[decision-1]++;
             return CantSitios;
         }
+
+        public static int[] GenerarSitios(){
+            return CantSitios;
+        }
     }
 }
